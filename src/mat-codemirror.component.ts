@@ -1,4 +1,4 @@
-import {Component, OnChanges, DoCheck, OnDestroy, ElementRef, Input, Optional, Self, Inject} from '@angular/core';
+import {Component, OnChanges, DoCheck, OnDestroy, SimpleChanges, ElementRef, Input, Optional, Self, Inject} from '@angular/core';
 import {NgControl, NgForm, FormGroupDirective, FormControl} from '@angular/forms';
 import {ErrorStateMatcher, CanUpdateErrorState} from '@angular/material/core';
 import {MatFormFieldControl} from '@angular/material/form-field';
@@ -128,9 +128,13 @@ export class MatCodemirrorComponent extends CodemirrorComponent implements
 	}
 
 
-	public ngOnChanges(): void
+	public ngOnChanges(changes: SimpleChanges): void
 	{
-		this.stateChanges.next();
+		super.ngOnChanges(changes);
+
+		if (typeof changes['value'] !== 'undefined' || typeof changes['required'] !== 'undefined') {
+			this.stateChanges.next();
+		}
 	}
 
 

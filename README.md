@@ -13,7 +13,7 @@ $ npm install --save @angular/core@^5.0
 $ npm install --save @angular/forms@^5.0
 $ npm install --save codemirror
 $ npm install --save rxjs
-$ npm install --save @webacad/ng-codemirror
+$ npm install --save @webacad/ng-codemirror@^0.1.1
 $ npm install --save @webacad/ng-mat-codemirror
 ```
 
@@ -25,7 +25,7 @@ $ yarn add @angular/core@^5.0
 $ yarn add @angular/forms@^5.0
 $ yarn add codemirror
 $ yarn add rxjs
-$ yarn add @webacad/ng-codemirror
+$ yarn add @webacad/ng-codemirror@^0.1.1
 $ yarn add @webacad/ng-mat-codemirror
 ```
 

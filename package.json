@@ -23,7 +23,7 @@
 		"@angular/core": "^5.0",
 		"@angular/forms": "^5.0",
 		"@angular/material": "^5.0",
-		"@webacad/ng-codemirror": "^0.0.1",
+		"@webacad/ng-codemirror": "^0.1.1",
 		"codemirror": "*",
 		"rxjs": "^5.5.0"
 	},
