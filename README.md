@@ -5,27 +5,28 @@
 
 CodeMirror form component for angular material. Based on [@webacad/ng-codemirror](https://github.com/Web-ACAD/ng-codemirror).
 
+## Dependencies
+
+* `@angular/animations`
+* `@angular/cdk`
+* `@angular/common`
+* `@angular/core`
+* `@angular/forms`
+* `@angular/material`
+* `@angular/platform-browser`
+* `@webacad/ng-codemirror`
+* `codemirror`
+* `rxjs`
+
 ## Installation
 
 ```bash
-$ npm install --save @angular/common@^5.0
-$ npm install --save @angular/core@^5.0
-$ npm install --save @angular/forms@^5.0
-$ npm install --save codemirror
-$ npm install --save rxjs
-$ npm install --save @webacad/ng-codemirror@^0.1.1
 $ npm install --save @webacad/ng-mat-codemirror
 ```
 
 or with yarn
 
 ```bash
-$ yarn add @angular/common@^5.0
-$ yarn add @angular/core@^5.0
-$ yarn add @angular/forms@^5.0
-$ yarn add codemirror
-$ yarn add rxjs
-$ yarn add @webacad/ng-codemirror@^0.1.1
 $ yarn add @webacad/ng-mat-codemirror
 ```
 
